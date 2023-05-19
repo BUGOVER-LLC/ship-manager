@@ -24,6 +24,8 @@ return [
 
     'container_name' => 'Containers',
 
+    'section_prefix' => 'Section',
+
     'api' => [
         /*
         |--------------------------------------------------------------------------

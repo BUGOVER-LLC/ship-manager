@@ -27,7 +27,7 @@ class HelloWorldCommand extends ConsoleCommand
      *
      * @return void
      */
-    public function handle()
+    public function handle(): void
     {
         echo "Hello World :)\n";
     }
