@@ -1,0 +1,62 @@
+{
+  "name": "nuclear/ship",
+  "description": "Nuclear Ship folder where shared functionality resides",
+  "require": {
+    "php": "<=8.2.3",
+    "php-64bit": "<=8.2.3",
+    "nucleus/core": "^0.4.0",
+    "nucleus/socket": "^0.2.0",
+    "nucleus/model": "^1.0.0",
+    "nucleus/devicer": "^0.2.0",
+    "nucleus/repository": "^1.0.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "barryvdh/laravel-ide-helper": "^2.12.3",
+    "barryvdh/laravel-debugbar": "^3.6.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ship\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "name": "nucleus/core",
+      "url": "https://github.com/BUGOVER-LLC/nucleus.git",
+      "branch": "main"
+    },
+    {
+      "type": "vcs",
+      "name": "nucleus/socket",
+      "url": "https://github.com/BUGOVER-LLC/socket.git",
+      "branch": "main"
+    },
+    {
+      "type": "vcs",
+      "name": "nucleus/model",
+      "url": "https://github.com/BUGOVER-LLC/model.git",
+      "branch": "main"
+    },
+    {
+      "type": "vcs",
+      "name": "nucleus/repository",
+      "url": "https://github.com/BUGOVER-LLC/repository.git",
+      "branch": "main"
+    },
+    {
+      "type": "vcs",
+      "name": "nucleus/devicer",
+      "url": "https://github.com/BUGOVER-LLC/devicer.git",
+      "branch": "main"
+    }
+  ],
+  "scripts": {
+    "post-update-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+      "@php artisan ide-helper:generate",
+      "@php artisan ide-helper:meta"
+    ]
+  }
+}
