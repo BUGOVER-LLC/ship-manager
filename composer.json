@@ -1,10 +1,11 @@
 {
   "name": "nuclear/ship",
+  "version": "1.0.0",
   "description": "Nuclear Ship folder where shared functionality resides",
   "require": {
     "php": "<=8.2.3",
     "php-64bit": "<=8.2.3",
-    "nucleus/core": "^0.4.0",
+    "nucleus/core": "^0.5.0",
     "nucleus/socket": "^0.2.0",
     "nucleus/model": "^1.0.0",
     "nucleus/devicer": "^0.2.0",
