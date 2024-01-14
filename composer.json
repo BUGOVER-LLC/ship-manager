@@ -30,30 +30,6 @@
       "name": "nucleus/core",
       "url": "https://github.com/BUGOVER-LLC/nucleus.git",
       "branch": "main"
-    },
-    {
-      "type": "vcs",
-      "name": "nucleus/socket",
-      "url": "https://github.com/BUGOVER-LLC/socket.git",
-      "branch": "main"
-    },
-    {
-      "type": "vcs",
-      "name": "nucleus/model",
-      "url": "https://github.com/BUGOVER-LLC/model.git",
-      "branch": "main"
-    },
-    {
-      "type": "vcs",
-      "name": "nucleus/repository",
-      "url": "https://github.com/BUGOVER-LLC/repository.git",
-      "branch": "main"
-    },
-    {
-      "type": "vcs",
-      "name": "nucleus/devicer",
-      "url": "https://github.com/BUGOVER-LLC/devicer.git",
-      "branch": "main"
     }
   ],
   "scripts": {
