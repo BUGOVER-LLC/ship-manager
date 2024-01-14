@@ -1,6 +1,6 @@
 {
   "name": "shipyard/containermanager",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Nuclear Ship folder where shared functionality resides",
   "require": {
     "php": "<=8.2.3",
