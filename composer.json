@@ -1,7 +1,8 @@
 {
   "name": "shipyard/containermanager",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Nuclear Ship folder where shared functionality resides",
+  "license": "MIT",
   "require": {
     "php": "<=8.2.3",
     "php-64bit": "<=8.2.3",
