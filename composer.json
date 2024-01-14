@@ -1,6 +1,6 @@
 {
-  "name": "ship/manager",
-  "version": "0.2.5",
+  "name": "shipyard/manager",
+  "version": "0.2.6",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
