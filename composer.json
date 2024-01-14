@@ -1,6 +1,6 @@
 {
-  "name": "nuclear/ship",
-  "version": "1.0.0",
+  "name": "shipyard/containermanager",
+  "version": "0.2.1",
   "description": "Nuclear Ship folder where shared functionality resides",
   "require": {
     "php": "<=8.2.3",
@@ -9,7 +9,8 @@
     "nucleus/socket": "^0.2.0",
     "nucleus/model": "^1.0.0",
     "nucleus/devicer": "^0.2.0",
-    "nucleus/repository": "^1.0.0"
+    "nucleus/repository": "^1.0.0",
+    "composer/installers": "^2.0.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
@@ -19,6 +20,11 @@
   "autoload": {
     "psr-4": {
       "Ship\\": ""
+    }
+  },
+  "extra": {
+    "installer-paths": {
+      "app/": ["app/Ship"]
     }
   },
   "repositories": [
