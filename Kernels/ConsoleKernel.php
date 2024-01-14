@@ -36,7 +36,7 @@ class ConsoleKernel extends LaravelConsoleKernel
      *
      * @return void
      */
-    protected function commands()
+    protected function commands(): void
     {
         // NOTE: No need to load your Commands manually from here.
         // As they are automatically registered by the Apiato Loader.
