@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ship\Criterias;
 
 use Ship\Parents\Criterias\Criteria;
@@ -14,7 +16,7 @@ class ThisBetweenDatesCriteria extends Criteria
     ) {
     }
 
-    public function apply($model, $repository)
+    public function apply($model)
     {
         return $model->whereBetween($this->field, [$this->start->toDateString(), $this->end->toDateString()]);
     }

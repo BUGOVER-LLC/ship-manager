@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Ship\Criterias;
 
 use Ship\Parents\Criterias\Criteria;
-use Prettus\Repository\Contracts\RepositoryInterface as PrettusRepositoryInterface;
 
 class GroupByCriteria extends Criteria
 {
@@ -16,7 +15,7 @@ class GroupByCriteria extends Criteria
         $this->field = $field;
     }
 
-    public function apply($model, PrettusRepositoryInterface $repository)
+    public function apply($model)
     {
         return $model->groupBy($this->field);
     }

@@ -1,13 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ship\Criterias;
 
 use Ship\Parents\Criterias\Criteria;
-use Prettus\Repository\Contracts\RepositoryInterface as PrettusRepositoryInterface;
 
 class OrderByCreationDateAscendingCriteria extends Criteria
 {
-    public function apply($model, PrettusRepositoryInterface $repository)
+    public function apply($model)
     {
         return $model->orderBy('created_at', 'asc');
     }

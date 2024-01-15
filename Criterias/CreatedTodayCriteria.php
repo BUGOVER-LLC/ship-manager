@@ -6,11 +6,10 @@ namespace Ship\Criterias;
 
 use Ship\Parents\Criterias\Criteria;
 use Carbon\Carbon;
-use Prettus\Repository\Contracts\RepositoryInterface as PrettusRepositoryInterface;
 
 class CreatedTodayCriteria extends Criteria
 {
-    public function apply($model, PrettusRepositoryInterface $repository)
+    public function apply($model)
     {
         return $model->where('created_at', '>=', Carbon::today()->toDateString());
     }

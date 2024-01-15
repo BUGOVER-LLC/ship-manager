@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ship\Criterias;
 
 use Ship\Parents\Criterias\Criteria;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use Prettus\Repository\Contracts\RepositoryInterface as PrettusRepositoryInterface;
 
 class OrderByFieldCriteria extends Criteria
 {
@@ -30,7 +31,7 @@ class OrderByFieldCriteria extends Criteria
         return in_array($sortOrder, $availableDirections, true);
     }
 
-    public function apply($model, PrettusRepositoryInterface $repository)
+    public function apply($model)
     {
         return $model->orderBy($this->field, $this->sortOrder);
     }
