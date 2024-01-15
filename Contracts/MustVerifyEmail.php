@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ship\Contracts;
 
 interface MustVerifyEmail extends \Illuminate\Contracts\Auth\MustVerifyEmail
