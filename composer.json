@@ -21,7 +21,9 @@
   },
   "extra": {
     "installer-paths": {
-      "app/": ["app/Ship"]
+      "app/": [
+        "app/Ship"
+      ]
     }
   },
   "repositories": [
