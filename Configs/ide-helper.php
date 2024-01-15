@@ -308,10 +308,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Run artisan commands after migrations to generate model helpers
+    | Run artisan commands after Migrations to generate model helpers
     |--------------------------------------------------------------------------
     |
-    | The specified commands should run after migrations are finished running.
+    | The specified commands should run after Migrations are finished running.
     |
     */
     'post_migrate' => [
