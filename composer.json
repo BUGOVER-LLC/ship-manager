@@ -1,12 +1,12 @@
 {
   "name": "shipyard/manager",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
     "php": "<=8.2.3",
     "php-64bit": "<=8.2.3",
-    "nucleus/core": "^1.0.0",
+    "nucleus/core": "^1.0.1",
     "composer/installers": "^2.0.0"
   },
   "require-dev": {
