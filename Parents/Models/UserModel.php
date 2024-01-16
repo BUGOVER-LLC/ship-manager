@@ -6,14 +6,12 @@ namespace Ship\Parents\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
-use Nucleus\Abstracts\Models\UserModel as AbstractUserModel;
+use Nucleus\Abstracts\Models\Model as AbstractModel;
 use Nucleus\Traits\CanOwnTrait;
-use Spatie\Permission\Traits\HasRoles;
 
-abstract class UserModel extends AbstractUserModel
+abstract class UserModel extends AbstractModel
 {
     use Notifiable;
     use HasApiTokens;
-    use HasRoles;
     use CanOwnTrait;
 }
