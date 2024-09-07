@@ -1,13 +1,13 @@
 {
-  "name": "shipyard/manager",
+  "name": "bugover/ship-manager",
   "type": "package",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
     "php": "<=8.2.3",
     "php-64bit": "<=8.2.3",
-    "bugover/laravel-porto": "^0.8.0",
+    "bugover/ship": "^0.8.0",
     "composer/installers": "^2.0.0"
   },
   "require-dev": {
