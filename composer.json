@@ -1,6 +1,7 @@
 {
   "name": "shipyard/manager",
-  "version": "0.9.0",
+  "type": "laravel-container",
+  "version": "1.0.0",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
@@ -20,11 +21,7 @@
     }
   },
   "extra": {
-    "installer-paths": {
-      "https://github.com/BUGOVER-LLC/ship": [
-        "app/Ship"
-      ]
-    }
+    "installer-name": "Ship"
   },
   "scripts": {
     "post-update-cmd": [
