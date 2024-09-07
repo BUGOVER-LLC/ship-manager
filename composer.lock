@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0417f22206d248e0c08a52b9ad73827e",
+    "content-hash": "a53e5fa510250e0df376568125d86ae3",
     "packages": [
         {
             "name": "brick/math",
@@ -68,16 +68,16 @@
         },
         {
             "name": "bugover/laravel-porto",
-            "version": "0.6.0",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/laravel-porto.git",
-                "reference": "8401476732840738a2009fd93b8f2adb93b02bd9"
+                "reference": "c88831b4fcdb8dd8cade3e1405ea664447c58cda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/laravel-porto/zipball/8401476732840738a2009fd93b8f2adb93b02bd9",
-                "reference": "8401476732840738a2009fd93b8f2adb93b02bd9",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/laravel-porto/zipball/c88831b4fcdb8dd8cade3e1405ea664447c58cda",
+                "reference": "c88831b4fcdb8dd8cade3e1405ea664447c58cda",
                 "shasum": ""
             },
             "require": {
@@ -108,8 +108,7 @@
                         "Nucleus\\Generator\\GeneratorsServiceProvider"
                     ],
                     "aliases": {
-                        "Hashids": "Vinkla\\Hashids\\Facades\\Hashids",
-                        "Fractal": "Spatie\\Fractal\\FractalFacade"
+                        "Hashids": "Vinkla\\Hashids\\Facades\\Hashids"
                     }
                 },
                 "class": "Nucleus\\Installer\\PluginInstaller"
@@ -141,9 +140,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/laravel-porto/issues",
-                "source": "https://github.com/BUGOVER-LLC/laravel-porto/tree/0.6.0"
+                "source": "https://github.com/BUGOVER-LLC/laravel-porto/tree/0.8.0"
             },
-            "time": "2024-09-07T11:46:16+00:00"
+            "time": "2024-09-07T14:54:56+00:00"
         },
         {
             "name": "bugover/laravel-repository",
@@ -2330,68 +2329,6 @@
             "time": "2024-01-28T23:22:08+00:00"
         },
         {
-            "name": "mobiledetect/mobiledetectlib",
-            "version": "2.8.45",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "96aaebcf4f50d3d2692ab81d2c5132e425bca266"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/96aaebcf4f50d3d2692ab81d2c5132e425bca266",
-                "reference": "96aaebcf4f50d3d2692ab81d2c5132e425bca266",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8.36"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Detection": "namespaced/"
-                },
-                "classmap": [
-                    "Mobile_Detect.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Serban Ghita",
-                    "email": "serbanghita@gmail.com",
-                    "homepage": "http://mobiledetect.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
-            "homepage": "https://github.com/serbanghita/Mobile-Detect",
-            "keywords": [
-                "detect mobile devices",
-                "mobile",
-                "mobile detect",
-                "mobile detector",
-                "php mobile detect"
-            ],
-            "support": {
-                "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
-                "source": "https://github.com/serbanghita/Mobile-Detect/tree/2.8.45"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/serbanghita",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-11-07T21:57:25+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "3.7.0",
             "source": {
@@ -2745,39 +2682,6 @@
                 "source": "https://github.com/nette/utils/tree/v4.0.5"
             },
             "time": "2024-08-07T15:39:19+00:00"
-        },
-        {
-            "name": "nucleus/devicer",
-            "version": "0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/BUGOVER-LLC/devicer.git",
-                "reference": "6c3c997c82dc4d034d16bdb3021fcc39eafbd884"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/devicer/zipball/6c3c997c82dc4d034d16bdb3021fcc39eafbd884",
-                "reference": "6c3c997c82dc4d034d16bdb3021fcc39eafbd884",
-                "shasum": ""
-            },
-            "require": {
-                "mobiledetect/mobiledetectlib": "^2.7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^10.0.0",
-                "roave/security-advisories": "dev-latest"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Service\\Devicer\\": "src/"
-                }
-            },
-            "support": {
-                "source": "https://github.com/BUGOVER-LLC/devicer/tree/0.2.0",
-                "issues": "https://github.com/BUGOVER-LLC/devicer/issues"
-            },
-            "time": "2023-05-12T14:33:26+00:00"
         },
         {
             "name": "nunomaduro/termwind",
