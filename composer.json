@@ -1,13 +1,12 @@
 {
   "name": "shipyard/manager",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
     "php": "<=8.2.3",
     "php-64bit": "<=8.2.3",
     "bugover/laravel-porto": "^0.6.0",
-    "nucleus/devicer": "^0.2.0",
     "composer/installers": "^2.0.0"
   },
   "require-dev": {
@@ -27,14 +26,6 @@
       ]
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "name": "nucleus/devicer",
-      "url": "https://github.com/BUGOVER-LLC/devicer.git",
-      "branch": "main"
-    }
-  ],
   "scripts": {
     "post-update-cmd": [
       "Illuminate\\Foundation\\ComposerScripts::postUpdate",
