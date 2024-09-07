@@ -1,7 +1,7 @@
 {
   "name": "shipyard/manager",
-  "type": "laravel-container",
-  "version": "1.0.0",
+  "type": "cakephp-plugin",
+  "version": "1.0.2",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
