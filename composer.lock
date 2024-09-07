@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27baf0ebeecd65f170857ff9b0c6e97f",
+    "content-hash": "026225b5da0a777f7f55fc63d1134dbb",
     "packages": [
         {
             "name": "brick/math",
@@ -130,16 +130,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "36d9f14072a69e19f48b9c03d0b08685963b6df1"
+                "reference": "3e0be1441d0e95c2afbedb4008500c21000fd769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/36d9f14072a69e19f48b9c03d0b08685963b6df1",
-                "reference": "36d9f14072a69e19f48b9c03d0b08685963b6df1",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/3e0be1441d0e95c2afbedb4008500c21000fd769",
+                "reference": "3e0be1441d0e95c2afbedb4008500c21000fd769",
                 "shasum": ""
             },
             "require": {
@@ -150,7 +150,8 @@
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^7.0.0",
                 "laravel/framework": "^11.0.0",
-                "php": "^8.2.0",
+                "php": "<=8.2.3",
+                "php-64bit": "<=8.2.3",
                 "vinkla/hashids": "^12.0.0"
             },
             "require-dev": {
@@ -202,9 +203,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.0.0"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.0.2"
             },
-            "time": "2024-09-07T19:58:18+00:00"
+            "time": "2024-09-07T20:56:44+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
