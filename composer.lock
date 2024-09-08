@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46b9d3a64c71c5c47c4c48a197680548",
+    "content-hash": "a9f25c05172c566683dd647733195d60",
     "packages": [
         {
             "name": "brick/math",
@@ -130,16 +130,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "4fdffa82392121089e7932225b9ae29920891ff6"
+                "reference": "800c43be9d6df9f7256786d952603edd79dd92f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/4fdffa82392121089e7932225b9ae29920891ff6",
-                "reference": "4fdffa82392121089e7932225b9ae29920891ff6",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/800c43be9d6df9f7256786d952603edd79dd92f9",
+                "reference": "800c43be9d6df9f7256786d952603edd79dd92f9",
                 "shasum": ""
             },
             "require": {
@@ -203,9 +203,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.0.3"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.0.4"
             },
-            "time": "2024-09-08T08:32:12+00:00"
+            "time": "2024-09-08T08:53:31+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
