@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Ship\Kernels;
 
+use Exception;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as LaravelConsoleKernel;
 
@@ -43,6 +44,9 @@ class ConsoleKernel extends LaravelConsoleKernel
 
         // $this->load(__DIR__.'/Commands');
 
-        require app_path('Ship/Commands/closures.php');
+        try {
+            require app_path('Ship/Commands/closures.php');
+        } catch (Exception) {
+        }
     }
 }
