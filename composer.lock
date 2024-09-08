@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "026225b5da0a777f7f55fc63d1134dbb",
+    "content-hash": "497064e5ca692cd92b88a39eca3e9d93",
     "packages": [
         {
             "name": "brick/math",
@@ -130,16 +130,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "3e0be1441d0e95c2afbedb4008500c21000fd769"
+                "reference": "4fdffa82392121089e7932225b9ae29920891ff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/3e0be1441d0e95c2afbedb4008500c21000fd769",
-                "reference": "3e0be1441d0e95c2afbedb4008500c21000fd769",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/4fdffa82392121089e7932225b9ae29920891ff6",
+                "reference": "4fdffa82392121089e7932225b9ae29920891ff6",
                 "shasum": ""
             },
             "require": {
@@ -203,9 +203,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.0.2"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.0.3"
             },
-            "time": "2024-09-07T20:56:44+00:00"
+            "time": "2024-09-08T08:32:12+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -7505,11 +7505,11 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "roave/security-advisories": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "<=8.2.3",
