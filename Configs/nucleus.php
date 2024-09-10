@@ -170,7 +170,7 @@ return [
     'seeders' => [
         /*
         |--------------------------------------------------------------------------
-        | Special seeders for apiato:seed-deploy & apiato:seed-test commands
+        | Special seeders for nucleus:seed-deploy & nucleus:seed-test commands
         |--------------------------------------------------------------------------
         |
         */

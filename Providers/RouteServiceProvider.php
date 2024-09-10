@@ -13,7 +13,7 @@ class RouteServiceProvider extends ParentRouteServiceProvider
     /**
      * The name of the web "home" route for your application.
      *
-     * This is used by Apiato authentication to redirect users after login.
+     * This is used by Nucleus authentication to redirect users after login.
      *
      * @var string
      */
@@ -22,7 +22,7 @@ class RouteServiceProvider extends ParentRouteServiceProvider
     /**
      * The name of the web "login" route for your application.
      *
-     * This is used by Apiato authentication to redirect users if unauthenticated.
+     * This is used by Nucleus authentication to redirect users if unauthenticated.
      *
      * @var string
      */
@@ -31,7 +31,7 @@ class RouteServiceProvider extends ParentRouteServiceProvider
     /**
      * The name of the web "unauthorized" route for your application.
      *
-     * This is used by Apiato authentication to redirect users if unauthorized.
+     * This is used by Nucleus authentication to redirect users if unauthorized.
      *
      * @var string
      */
