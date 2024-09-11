@@ -1,7 +1,7 @@
 {
   "name": "bugover/ship-manager",
   "type": "library",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
@@ -26,7 +26,8 @@
   "scripts": {
     "post-update-cmd": []
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "config": {
     "allow-plugins": {
       "composer/installers": true
