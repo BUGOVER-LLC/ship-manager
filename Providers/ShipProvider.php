@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Ship\Providers;
 
-use Ship\Parents\Providers\MainServiceProvider as ParentMainServiceProvider;
 use Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider;
+use Ship\Parents\Providers\MainServiceProvider as ParentMainServiceProvider;
 
 class ShipProvider extends ParentMainServiceProvider
 {
@@ -37,7 +37,7 @@ class ShipProvider extends ParentMainServiceProvider
         /**
          * Load the ide-helper service provider only in non production environments.
          */
-        if ($this->app->isLocal()) {
+        if (class_exists('Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider') && $this->app->isLocal()) {
             $this->app->register(IdeHelperServiceProvider::class);
         }
 
