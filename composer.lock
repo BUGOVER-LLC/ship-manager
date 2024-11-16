@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4e2f0c27e8f2bab9b591df9f79e2de6",
+    "content-hash": "beed555916eb26894345edc870f19f03",
     "packages": [
         {
             "name": "brick/math",
@@ -130,22 +130,23 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.3.6",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "d3655aadac7251d9bf86487fa8e4bfc647dc9a52"
+                "reference": "d494f42b867a5ffc2414cf1610b028b417cd9c10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/d3655aadac7251d9bf86487fa8e4bfc647dc9a52",
-                "reference": "d3655aadac7251d9bf86487fa8e4bfc647dc9a52",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/d494f42b867a5ffc2414cf1610b028b417cd9c10",
+                "reference": "d494f42b867a5ffc2414cf1610b028b417cd9c10",
                 "shasum": ""
             },
             "require": {
                 "bugover/laravel-repository": "^1.0.0",
                 "composer-plugin-api": "^2.0.0",
                 "composer/class-map-generator": "^1.0.0",
+                "composer/installers": "^2.0.0",
                 "darkaonline/l5-swagger": "^8.0.0",
                 "ext-gettext": "*",
                 "ext-json": "*",
@@ -158,8 +159,8 @@
                 "laravel/passport": "^12.0.0",
                 "laravel/reverb": "^1.0.0",
                 "laravel/tinker": "^2.0.0",
-                "php": ">=8.3.2",
-                "php-64bit": ">=8.3.2",
+                "php": "^8.3.2",
+                "php-64bit": "^8.3.2",
                 "swoole/ide-helper": "^5.0.0"
             },
             "require-dev": {
@@ -209,9 +210,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.3.6"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.3.8"
             },
-            "time": "2024-11-16T16:25:00+00:00"
+            "time": "2024-11-16T17:37:27+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
