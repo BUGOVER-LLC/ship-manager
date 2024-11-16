@@ -26,3 +26,5 @@ after.sh
 aliases
 .php-cs-fixer.cache
 /psalm_cache/
+.php-cs-fixer.php
+phpcs.xml
