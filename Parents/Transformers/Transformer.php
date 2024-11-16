@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ship\Parents\Transformers;
 
 use Nucleus\Abstracts\Transformers\Transformer as AbstractTransformer;

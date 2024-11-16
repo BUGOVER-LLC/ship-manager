@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Ship\Parents\Policies;
 
 use Nucleus\Abstracts\Policies\Policy as AbstractPolicy;
