@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac15eaa2702e53b110122f5d000d466",
+    "content-hash": "932b848fadf3eca7ff2c919b42bb09a0",
     "packages": [
         {
             "name": "brick/math",
@@ -130,16 +130,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.3.3",
+            "version": "1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "caf792583f7ffb3478e6b14d0739e58b87d596d0"
+                "reference": "352bd696dc99203adee32ee390be13e27c1b2a0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/caf792583f7ffb3478e6b14d0739e58b87d596d0",
-                "reference": "caf792583f7ffb3478e6b14d0739e58b87d596d0",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/352bd696dc99203adee32ee390be13e27c1b2a0e",
+                "reference": "352bd696dc99203adee32ee390be13e27c1b2a0e",
                 "shasum": ""
             },
             "require": {
@@ -158,8 +158,8 @@
                 "laravel/passport": "^12.0.0",
                 "laravel/reverb": "^1.0.0",
                 "laravel/tinker": "^2.0.0",
-                "php": "<=8.2.3",
-                "php-64bit": "<=8.2.3",
+                "php": "<=8.3.2",
+                "php-64bit": "<=8.3.2",
                 "swoole/ide-helper": "^5.0.0"
             },
             "require-dev": {
@@ -209,9 +209,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.3.3"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.3.5"
             },
-            "time": "2024-10-17T09:02:13+00:00"
+            "time": "2024-11-16T16:07:58+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
