@@ -1,7 +1,7 @@
 {
   "name": "bugover/ship-manager",
   "type": "ship-manager",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
@@ -21,7 +21,12 @@
     }
   },
   "extra": {
-    "installer-name": "ShipManager"
+    "installer-name": "ShipManager",
+    "installer-paths": {
+      "app/{$name}": [
+        "type:ship-manager"
+      ]
+    }
   },
   "scripts": {
     "post-update-cmd": []
