@@ -1,7 +1,7 @@
 {
   "name": "bugover/ship-manager",
   "type": "ship-manager",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
