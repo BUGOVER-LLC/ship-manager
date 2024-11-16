@@ -1,12 +1,12 @@
 {
   "name": "bugover/ship-manager",
   "type": "ship-manager",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "Nuclear Ship folder where shared functionality resides",
   "license": "MIT",
   "require": {
-    "php": "<=8.2.3",
-    "php-64bit": "<=8.2.3",
+    "php": "<=8.3.2",
+    "php-64bit": "<=8.3.2",
     "bugover/ship": "^1.0.0",
     "composer/installers": "^2.0.0"
   },
@@ -21,12 +21,7 @@
     }
   },
   "extra": {
-    "installer-name": "ShipManager",
-    "installer-paths": {
-      "../Containers/{$name}": [
-        "type:ship-container"
-      ]
-    }
+    "installer-name": "ShipManager"
   },
   "scripts": {
     "post-update-cmd": []
