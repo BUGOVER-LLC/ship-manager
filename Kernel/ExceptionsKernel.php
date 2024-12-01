@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ship\Exceptions\Handlers;
+namespace Ship\Kernel;
 
 use Ship\Exceptions\NotAuthorizedResourceException;
 use Ship\Exceptions\NotFoundException;
@@ -23,7 +23,7 @@ use Throwable;
  *
  * A.K.A. (app/Exceptions/Handler.php)
  */
-class ExceptionsHandler extends CoreExceptionsHandler
+class ExceptionsKernel extends CoreExceptionsHandler
 {
     /**
      * A list of exception types with their corresponding custom log levels.

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ship\Kernels;
+namespace Ship\Kernel;
 
 use Exception;
 use Illuminate\Console\Scheduling\Schedule;

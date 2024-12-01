@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ship\Kernels;
+namespace Ship\Kernel;
 
 use Ship\Middlewares\Authenticate;
 use Ship\Middlewares\EncryptCookies;
