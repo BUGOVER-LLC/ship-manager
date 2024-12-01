@@ -278,16 +278,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "58d6aec88785d5129f05180ac2161c018c7e79b3"
+                "reference": "a798dcf6d0d077b94c66e075248a396c9d861cce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/58d6aec88785d5129f05180ac2161c018c7e79b3",
-                "reference": "58d6aec88785d5129f05180ac2161c018c7e79b3",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/a798dcf6d0d077b94c66e075248a396c9d861cce",
+                "reference": "a798dcf6d0d077b94c66e075248a396c9d861cce",
                 "shasum": ""
             },
             "require": {
@@ -357,9 +357,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.4.4"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.4.5"
             },
-            "time": "2024-11-30T19:46:34+00:00"
+            "time": "2024-12-01T11:31:16+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",

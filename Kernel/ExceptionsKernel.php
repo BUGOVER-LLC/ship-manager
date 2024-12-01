@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace Ship\Kernel;
 
-use Ship\Exceptions\NotAuthorizedResourceException;
-use Ship\Exceptions\NotFoundException;
-use Ship\Providers\RouteServiceProvider;
 use Illuminate\Auth\AuthenticationException as LaravelAuthenticationException;
 use Illuminate\Http\JsonResponse;
 use Nucleus\Abstracts\Exceptions\Exception as CoreException;
 use Nucleus\Exceptions\AuthenticationException as CoreAuthenticationException;
 use Nucleus\Exceptions\Handlers\ExceptionsHandler as CoreExceptionsHandler;
 use Psr\Log\LogLevel;
+use Ship\Exceptions\NotAuthorizedResourceException;
+use Ship\Exceptions\NotFoundException;
+use Ship\Providers\RouteServiceProvider;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
