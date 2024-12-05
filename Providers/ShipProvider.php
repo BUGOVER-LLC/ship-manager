@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Ship\Providers;
 
 use Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider;
+use Illuminate\Database\Eloquent\Model;
 use Ship\Parents\Providers\MainServiceProvider as ParentMainServiceProvider;
 
 class ShipProvider extends ParentMainServiceProvider
@@ -27,6 +28,8 @@ class ShipProvider extends ParentMainServiceProvider
     public function boot(): void
     {
         parent::boot();
+
+        $this->strictModeAdoption();
     }
 
     /**
@@ -34,13 +37,39 @@ class ShipProvider extends ParentMainServiceProvider
      */
     public function register(): void
     {
+        parent::register();
+
         /**
          * Load the ide-helper service provider only in non production environments.
          */
         if (class_exists('Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider') && $this->app->isLocal()) {
             $this->app->register(IdeHelperServiceProvider::class);
         }
+    }
 
-        parent::register();
+    protected function strictModeAdoption(): void
+    {
+        if (app()->isProduction()) {
+            return;
+        }
+
+        $strict = (bool) config('nucleus.strict');
+        $level = (int) config('nucleus.strict_level');
+
+        if ($strict) {
+            switch ($level) {
+                case 1:
+                    Model::shouldBeStrict();
+                    break;
+                case 2:
+                    Model::preventLazyLoading();
+                    Model::preventAccessingMissingAttributes();
+                    Model::preventSilentlyDiscardingAttributes(false);
+                    break;
+                case 3:
+                    Model::preventSilentlyDiscardingAttributes(false);
+                    break;
+            }
+        }
     }
 }

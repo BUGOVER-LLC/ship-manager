@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace Ship\Criterias;
 
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Service\Repository\Contracts\EloquentRepositoryContract;
 use Ship\Parents\Criterias\Criteria;
-use Illuminate\Database\Query\Builder;
 
 /**
  * Retrieves all entities where $field contains one or more of the given items in $valueString.
@@ -23,13 +25,14 @@ class ThisLikeThatCriteria extends Criteria
         private string $valueString,
         private string $separator = ',',
         private string $wildcard = '*'
-    ) {
+    )
+    {
     }
 
     /**
      * Applies the criteria - if more than one value is separated by the configured separator we will "OR" all the params.
      */
-    public function apply($model)
+    public function apply($model, EloquentRepositoryContract $repository): Model|Builder
     {
         return $model->where(function ($query) {
             $values = explode($this->separator, $this->valueString);

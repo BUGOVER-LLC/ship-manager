@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c443593219de92ec10faf7bc4406b4ba",
+    "content-hash": "093b3accc0e5985188e30bbec44b51a8",
     "packages": [
         {
             "name": "brick/math",
@@ -130,42 +130,43 @@
         },
         {
             "name": "bugover/laravel-websocket",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER/laravel-websocket.git",
-                "reference": "d1f12970bcba9a35eec3da7be674a443b4d3089e"
+                "reference": "254a7c1da6bb3d41981535c8103b630392ab55bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER/laravel-websocket/zipball/d1f12970bcba9a35eec3da7be674a443b4d3089e",
-                "reference": "d1f12970bcba9a35eec3da7be674a443b4d3089e",
+                "url": "https://api.github.com/repos/BUGOVER/laravel-websocket/zipball/254a7c1da6bb3d41981535c8103b630392ab55bf",
+                "reference": "254a7c1da6bb3d41981535c8103b630392ab55bf",
                 "shasum": ""
             },
             "require": {
                 "bugover/ratchet": "^1.0.0",
                 "ext-json": "*",
                 "facade/ignition-contracts": "^1.0.0",
-                "illuminate/broadcasting": "^11.0",
-                "illuminate/console": "^11.0",
-                "illuminate/http": "^11.0",
-                "illuminate/queue": "^11.0",
-                "illuminate/routing": "^11.0",
-                "illuminate/support": "^11.0",
+                "illuminate/broadcasting": "^11.0.0",
+                "illuminate/console": "^11.0.0",
+                "illuminate/http": "^11.0.0",
+                "illuminate/queue": "^11.0.0",
+                "illuminate/routing": "^11.0.0",
+                "illuminate/support": "^11.0.0",
                 "php": ">=8.2.2",
                 "pusher/pusher-php-server": "^7.0.0",
                 "react/dns": "^1.0.0",
                 "react/http": "^1.0.0",
                 "react/promise": "^3.0.0",
-                "symfony/http-kernel": "^6.0|^7.0",
-                "symfony/psr-http-message-bridge": "^6.0|^7.0"
+                "symfony/http-kernel": "^7.0.0",
+                "symfony/psr-http-message-bridge": "^7.0.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.0.0",
                 "mockery/mockery": "^1.3.3",
                 "orchestra/testbench": "^9.0.0",
                 "phpunit/phpunit": "^10.0.0|^11.0.0",
-                "roave/security-advisories": "dev-latest"
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.11.0"
             },
             "type": "library",
             "extra": {
@@ -209,9 +210,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER/laravel-websocket/issues",
-                "source": "https://github.com/BUGOVER/laravel-websocket/tree/2.0.1"
+                "source": "https://github.com/BUGOVER/laravel-websocket/tree/2.0.2"
             },
-            "time": "2024-11-30T18:31:48+00:00"
+            "time": "2024-12-02T06:25:40+00:00"
         },
         {
             "name": "bugover/ratchet",
@@ -278,16 +279,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.4.5",
+            "version": "1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "a798dcf6d0d077b94c66e075248a396c9d861cce"
+                "reference": "33c668dc5704f1929bee796ebc7a0a2edd664640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/a798dcf6d0d077b94c66e075248a396c9d861cce",
-                "reference": "a798dcf6d0d077b94c66e075248a396c9d861cce",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/33c668dc5704f1929bee796ebc7a0a2edd664640",
+                "reference": "33c668dc5704f1929bee796ebc7a0a2edd664640",
                 "shasum": ""
             },
             "require": {
@@ -357,9 +358,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.4.5"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.4.8"
             },
-            "time": "2024-12-01T11:31:16+00:00"
+            "time": "2024-12-05T08:40:56+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -9075,6 +9076,75 @@
             "time": "2024-01-30T19:34:25+00:00"
         },
         {
+            "name": "laravel/telescope",
+            "version": "v5.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/telescope.git",
+                "reference": "7ee46fbea8e3b01108575c8edf7377abddfe8bb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/7ee46fbea8e3b01108575c8edf7377abddfe8bb9",
+                "reference": "7ee46fbea8e3b01108575c8edf7377abddfe8bb9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^8.37|^9.0|^10.0|^11.0",
+                "php": "^8.0",
+                "symfony/console": "^5.3|^6.0|^7.0",
+                "symfony/var-dumper": "^5.0|^6.0|^7.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "laravel/octane": "^1.4|^2.0|dev-develop",
+                "orchestra/testbench": "^6.40|^7.37|^8.17|^9.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.0|^10.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Telescope\\TelescopeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Telescope\\": "src/",
+                    "Laravel\\Telescope\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                }
+            ],
+            "description": "An elegant debug assistant for the Laravel framework.",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "monitoring"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/telescope/issues",
+                "source": "https://github.com/laravel/telescope/tree/v5.2.6"
+            },
+            "time": "2024-11-25T20:34:58+00:00"
+        },
+        {
             "name": "maximebf/debugbar",
             "version": "v1.23.3",
             "source": {
@@ -9306,12 +9376,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "fff26f7a91a7458bf6eea5afdd71b4aba1f1d3ea"
+                "reference": "2c78ba62968eb21288359a6bc9f856952e226eaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fff26f7a91a7458bf6eea5afdd71b4aba1f1d3ea",
-                "reference": "fff26f7a91a7458bf6eea5afdd71b4aba1f1d3ea",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/2c78ba62968eb21288359a6bc9f856952e226eaf",
+                "reference": "2c78ba62968eb21288359a6bc9f856952e226eaf",
                 "shasum": ""
             },
             "conflict": {
@@ -9481,6 +9551,7 @@
                 "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.6|>=1.5,<1.5.29|>=2.3,<2.3.26|>=3.3,<3.3.39",
                 "ezsystems/ezplatform-admin-ui-assets": ">=4,<4.2.1|>=5,<5.0.1|>=5.1,<5.1.1",
                 "ezsystems/ezplatform-graphql": ">=1.0.0.0-RC1-dev,<1.0.13|>=2.0.0.0-beta1,<2.3.12",
+                "ezsystems/ezplatform-http-cache": "<2.3.16",
                 "ezsystems/ezplatform-kernel": "<1.2.5.1-dev|>=1.3,<1.3.35",
                 "ezsystems/ezplatform-rest": ">=1.2,<=1.2.2|>=1.3,<1.3.8",
                 "ezsystems/ezplatform-richtext": ">=2.3,<2.3.7.1-dev|>=3.3,<3.3.40",
@@ -9565,11 +9636,12 @@
                 "hov/jobfair": "<1.0.13|>=2,<2.0.2",
                 "httpsoft/http-message": "<1.0.12",
                 "hyn/multi-tenant": ">=5.6,<5.7.2",
-                "ibexa/admin-ui": ">=4.2,<4.2.3|>=4.6.0.0-beta1,<4.6.9",
+                "ibexa/admin-ui": ">=4.2,<4.2.3|>=4.6,<4.6.14",
                 "ibexa/core": ">=4,<4.0.7|>=4.1,<4.1.4|>=4.2,<4.2.3|>=4.5,<4.5.6|>=4.6,<4.6.2",
                 "ibexa/fieldtype-richtext": ">=4.6,<4.6.10",
                 "ibexa/graphql": ">=2.5,<2.5.31|>=3.3,<3.3.28|>=4.2,<4.2.3",
-                "ibexa/post-install": "<=1.0.4",
+                "ibexa/http-cache": ">=4.6,<4.6.14",
+                "ibexa/post-install": "<1.0.16|>=4.6,<4.6.14",
                 "ibexa/solr": ">=4.5,<4.5.4",
                 "ibexa/user": ">=4,<4.4.3",
                 "icecoder/icecoder": "<=8.1",
@@ -9843,6 +9915,7 @@
                 "s-cart/s-cart": "<6.9",
                 "sabberworm/php-css-parser": ">=1,<1.0.1|>=2,<2.0.1|>=3,<3.0.1|>=4,<4.0.1|>=5,<5.0.9|>=5.1,<5.1.3|>=5.2,<5.2.1|>=6,<6.0.2|>=7,<7.0.4|>=8,<8.0.1|>=8.1,<8.1.1|>=8.2,<8.2.1|>=8.3,<8.3.1",
                 "sabre/dav": ">=1.6,<1.7.11|>=1.8,<1.8.9",
+                "samwilson/unlinked-wikibase": "<1.39.6|>=1.40,<1.40.2|>=1.41,<1.41.1",
                 "scheb/two-factor-bundle": "<3.26|>=4,<4.11",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
@@ -9874,11 +9947,13 @@
                 "silverstripe/userforms": "<3|>=5,<5.4.2",
                 "silverstripe/versioned-admin": ">=1,<1.11.1",
                 "simple-updates/phpwhois": "<=1",
-                "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4|==5.0.0.0-alpha12",
+                "simplesamlphp/saml2": "<4.6.14|==5.0.0.0-alpha12",
+                "simplesamlphp/saml2-legacy": "<4.6.14",
                 "simplesamlphp/simplesamlphp": "<1.18.6",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "simplesamlphp/simplesamlphp-module-openid": "<1",
                 "simplesamlphp/simplesamlphp-module-openidprovider": "<0.9",
+                "simplesamlphp/xml-common": "<1.20",
                 "simplesamlphp/xml-security": "==1.6.11",
                 "simplito/elliptic-php": "<1.0.6",
                 "sitegeist/fluid-components": "<3.5",
@@ -10141,7 +10216,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-27T22:05:07+00:00"
+            "time": "2024-12-04T23:05:13+00:00"
         }
     ],
     "aliases": [],

@@ -142,6 +142,8 @@ return [
 
     'model_locations' => [
         'app/Containers/*/*/Models',
+        'app/Containers/*/Models',
+        'app/Ship/*/Models',
     ],
 
     /*

@@ -96,7 +96,6 @@ return [
        |--------------------------------------------------------------------------
     */
     'cache' => [
-
         /*
         |--------------------------------------------------------------------------
         | Cache Keys File
@@ -109,7 +108,7 @@ return [
         | Default: storage_path('framework/cache/repository.json')
         |
         */
-        'keys_file' => base_path('var/framework/cache/repository.json'),
+        'keys_file' => base_path('storage/framework/cache/repository.json'),
 
         /*
         |--------------------------------------------------------------------------
@@ -123,7 +122,33 @@ return [
         | Default: -1
         |
         */
-        'lifetime' => (int)env('QUERY_CACHE_LIFETIME', 2592000), //30 days
+        'lifetime' => (int) env('QUERY_CACHE_LIFETIME', 0),
+
+        /*
+        |--------------------------------------------------------------------------
+        | Cache without a lifetime worked on current session id
+        |--------------------------------------------------------------------------
+        |
+        | Current config worked as current session only cache.
+        | Unique value for every request headers
+        |
+        | Default: false
+        |
+        */
+        'on_session' => env('QUERY_CACHE_ON_SESSION', false),
+
+        /*
+        |--------------------------------------------------------------------------
+        | Cache without lifetime worked on current session id
+        |--------------------------------------------------------------------------
+        |
+        | Current config worked as current session only cache.
+        | Unique value for every request headers
+        |
+        | Default: request-tempo-token
+        |
+        */
+        'on_session_key' => env('QUERY_CACHE_ON_SESSION_KEY', 'request-tempo-token'),
 
         /*
         |--------------------------------------------------------------------------
@@ -133,7 +158,7 @@ return [
         | Specify which actions would you like to clear cache upon success.
         | All repository cached data will be cleared accordingly.
         |
-        | Default: ['CreateComponents', 'update', 'delete']
+        | Default: ['create', 'update', 'delete']
         |
         */
         'clear_on' => [
@@ -156,25 +181,5 @@ return [
         |
         */
         'skip_uri' => 'skipCache',
-    ],
-
-    /**
-     * Generators files path
-     */
-    'generator' => [
-        'basePath' => app()->path(),
-        'rootNamespace' => 'Src\\',
-        'stubsOverridePath' => app()->path(),
-        'paths' => [
-            'models' => 'Models',
-            'repositories' => 'Repositories',
-            'interfaces' => 'Repositories',
-            'transformers' => 'Transformers',
-            'presenters' => 'Presenters',
-            'validators' => 'Validators',
-            'controllers' => 'Http/Controllers',
-            'provider' => 'RepositoryModelProvider',
-            'criteria' => 'Criteria',
-        ],
     ],
 ];
