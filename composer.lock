@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "093b3accc0e5985188e30bbec44b51a8",
+    "content-hash": "de02f0e306c632a67679abe254e5beb8",
     "packages": [
         {
             "name": "brick/math",
@@ -279,16 +279,16 @@
         },
         {
             "name": "bugover/ship",
-            "version": "1.4.8",
+            "version": "1.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BUGOVER-LLC/ship.git",
-                "reference": "33c668dc5704f1929bee796ebc7a0a2edd664640"
+                "reference": "4b410ce6299d6b09355d75d6b1b91bbd8c7fcb0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/33c668dc5704f1929bee796ebc7a0a2edd664640",
-                "reference": "33c668dc5704f1929bee796ebc7a0a2edd664640",
+                "url": "https://api.github.com/repos/BUGOVER-LLC/ship/zipball/4b410ce6299d6b09355d75d6b1b91bbd8c7fcb0c",
+                "reference": "4b410ce6299d6b09355d75d6b1b91bbd8c7fcb0c",
                 "shasum": ""
             },
             "require": {
@@ -358,9 +358,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BUGOVER-LLC/ship/issues",
-                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.4.8"
+                "source": "https://github.com/BUGOVER-LLC/ship/tree/1.4.9"
             },
-            "time": "2024-12-05T08:40:56+00:00"
+            "time": "2024-12-05T16:16:52+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -9146,16 +9146,16 @@
         },
         {
             "name": "maximebf/debugbar",
-            "version": "v1.23.3",
+            "version": "v1.23.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maximebf/php-debugbar.git",
-                "reference": "687400043d77943ef95e8417cb44e1673ee57844"
+                "reference": "0815f47bdd867b816b4bf2ca1c7bd7f89e1527ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/687400043d77943ef95e8417cb44e1673ee57844",
-                "reference": "687400043d77943ef95e8417cb44e1673ee57844",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/0815f47bdd867b816b4bf2ca1c7bd7f89e1527ca",
+                "reference": "0815f47bdd867b816b4bf2ca1c7bd7f89e1527ca",
                 "shasum": ""
             },
             "require": {
@@ -9208,9 +9208,9 @@
             ],
             "support": {
                 "issues": "https://github.com/maximebf/php-debugbar/issues",
-                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.3"
+                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.4"
             },
-            "time": "2024-10-29T12:24:25+00:00"
+            "time": "2024-12-05T10:36:51+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
