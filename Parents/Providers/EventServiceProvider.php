@@ -20,6 +20,10 @@ abstract class EventServiceProvider extends AbstractEventServiceProvider
      */
     protected $listen = [];
 
+    protected $observers = [];
+
+    protected $subscribe = [];
+
     /**
      * Register any events for your application.
      *

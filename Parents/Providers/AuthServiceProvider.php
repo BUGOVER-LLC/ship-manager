@@ -9,7 +9,7 @@ use Nucleus\Abstracts\Providers\AuthServiceProvider as AbstractAuthServiceProvid
 /**
  * Class ShipAuthServiceProvider
  *
- * A.K.A. App\Providers\AuthServiceProvider.php
+ * App\Providers\AuthServiceProvider.php
  */
 abstract class AuthServiceProvider extends AbstractAuthServiceProvider
 {

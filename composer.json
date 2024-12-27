@@ -1,7 +1,7 @@
 {
   "name": "bugover/ship-manager",
   "type": "laravel-library",
-  "version": "1.2.26",
+  "version": "1.2.27",
   "description": "Nuclear Ship folder where the shared feature resides",
   "license": "MIT",
   "require": {

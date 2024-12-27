@@ -8,11 +8,4 @@ use Nucleus\Abstracts\Providers\MiddlewareServiceProvider as AbstractMiddlewareS
 
 abstract class MiddlewareServiceProvider extends AbstractMiddlewareServiceProvider
 {
-    protected array $middlewares = [];
-
-    protected array $middlewareGroups = [];
-
-    protected array $middlewarePriority = [];
-
-    protected array $routeMiddleware = [];
 }
