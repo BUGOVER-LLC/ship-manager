@@ -39,6 +39,11 @@ class ShipProvider extends ParentMainServiceProvider
     {
         parent::register();
 
+        $this->app->bind(
+            'db.schema',
+            fn() => Schema::customizedSchemaBuilder()
+        );
+
         /**
          * Load the ide-helper service provider only in non production environments.
          */
