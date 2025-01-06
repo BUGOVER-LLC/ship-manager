@@ -7,7 +7,7 @@ namespace Ship\Criteria;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Service\Repository\Contracts\EloquentRepositoryContract;
-use Ship\Parents\Criteria\Criteria;
+use Ship\Parent\Criteria\Criteria;
 
 /**
  * Retrieves all entities where $field contains one or more of the given items in $valueString.

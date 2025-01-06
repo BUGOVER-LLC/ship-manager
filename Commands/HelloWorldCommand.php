@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Ship\Commands;
 
-use Ship\Parents\Command\ConsoleCommand;
+use Ship\Parent\Command\ConsoleCommand;
 
 class HelloWorldCommand extends ConsoleCommand
 {

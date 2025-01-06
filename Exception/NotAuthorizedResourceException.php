@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Ship\Exception;
 
-use Ship\Parents\Exception\Exception;
+use Ship\Parent\Exception\Exception;
 use Symfony\Component\HttpFoundation\Response;
 
 class NotAuthorizedResourceException extends Exception

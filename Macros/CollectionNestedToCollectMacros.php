@@ -6,7 +6,7 @@ namespace Ship\Macros;
 
 use Illuminate\Support\Collection;
 use Override;
-use Ship\Parents\Macro\Macro;
+use Ship\Parent\Macro\Macro;
 
 use function is_array;
 use function is_object;
