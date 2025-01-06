@@ -18,11 +18,11 @@ class HttpKernel extends LaravelHttpKernel
     protected $middleware = [
         // Laravel middlewares
         // \App\Http\Middleware\TrustHosts::class,
-        \Ship\Middlewares\TrustProxies::class,
+        \Ship\Middleware\TrustProxies::class,
         \Illuminate\Http\Middleware\HandleCors::class,
-        \Ship\Middlewares\PreventRequestsDuringMaintenance::class,
+        \Ship\Middleware\PreventRequestsDuringMaintenance::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
-        \Ship\Middlewares\TrimStrings::class,
+        \Ship\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
     ];
 
@@ -33,11 +33,11 @@ class HttpKernel extends LaravelHttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \Ship\Middlewares\EncryptCookies::class,
+            \Ship\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \Ship\Middlewares\VerifyCsrfToken::class,
+            \Ship\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
 
@@ -59,7 +59,7 @@ class HttpKernel extends LaravelHttpKernel
      * @var array<string, class-string|string>
      */
     protected $routeMiddleware = [
-        'auth' => \Ship\Middlewares\Authenticate::class,
+        'auth' => \Ship\Middleware\Authenticate::class,
         // 'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'auth.session' => \Illuminate\Session\Middleware\AuthenticateSession::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
@@ -80,10 +80,10 @@ class HttpKernel extends LaravelHttpKernel
      * @var string[]
      */
     protected $middlewarePriority = [
-        \Ship\Middlewares\EncryptCookies::class,
+        \Ship\Middleware\EncryptCookies::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \Ship\Middlewares\Authenticate::class,
+        \Ship\Middleware\Authenticate::class,
         \Illuminate\Routing\Middleware\ThrottleRequests::class,
         \Illuminate\Session\Middleware\AuthenticateSession::class,
         \Illuminate\Routing\Middleware\SubstituteBindings::class,
