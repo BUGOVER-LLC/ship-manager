@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Ship\Provider;
 
+use App\Ship\Database\Schema;
 use Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider;
 use Illuminate\Database\Eloquent\Model;
 use Ship\Parent\Provider\MainServiceProvider as ParentMainServiceProvider;
